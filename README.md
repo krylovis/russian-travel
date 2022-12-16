@@ -22,6 +22,12 @@
 * Flexbox (Flexible Box Layout Module
 * Grid Layout
 
+**Ссылка на проект**
+
+https://krylovis.github.io/russian-travel/
+или
+https://krylovis.github.io/russian-travel/index.html 
+
 **Картинки**
 
 Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
