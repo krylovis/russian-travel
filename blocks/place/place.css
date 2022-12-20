@@ -4,3 +4,24 @@
   column-gap: 40px;
   row-gap: 48px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+    row-gap: 42px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}

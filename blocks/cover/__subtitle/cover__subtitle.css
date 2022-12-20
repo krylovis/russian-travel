@@ -7,3 +7,10 @@
   padding-top: 32px;
   max-width: 360px;
 }
+
+@media screen and (max-width: 435px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

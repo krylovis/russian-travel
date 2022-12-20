@@ -3,5 +3,27 @@
   grid-template-columns: 1fr max-content;
   align-items: center;
   padding: 92px 0 24px;
-  max-width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    padding: 88px 0 24px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 64px 16px 24px;
+    gap: 48px;
+  }
 }

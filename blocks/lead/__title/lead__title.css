@@ -5,30 +5,11 @@
   font-size: 96px;
   line-height: 100px;
   max-width: 720px;
-  /* padding: 0 15%; */
-}
-
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    /* padding: 0 10%; */
-  }
-}
-
-@media screen and (max-width: 842px) {
-  .lead__title {
-    /* padding: 0 5%; */
-  }
 }
 
 @media screen and (max-width: 767px) {
   .lead__title {
     font-size: 40px;
     line-height: 44px;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .lead__title {
-    /* padding: 0; */
   }
 }

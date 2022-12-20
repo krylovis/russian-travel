@@ -7,5 +7,25 @@
 }
 
 .place__paragraph:last-child {
-  padding: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    padding: 0 0 27px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .place__paragraph {
+    font-size: 16px;
+    padding: 0 16px 25px;
+  }
 }

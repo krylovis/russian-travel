@@ -3,4 +3,13 @@
   font-size: 12px;
   line-height: 12px;
   color: #AAAAAA;
+  margin: 0;
+  padding: 0 0 12px;
+}
+
+@media screen and (max-width: 435px) {
+  .place__url-heading {
+    font-size: 12px;
+    padding: 0 16px 12px;
+  }
 }

@@ -5,18 +5,6 @@
 
 @media screen and (max-width: 1024px) {
   .content {
-    max-width: 928px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .content {
-    /* max-width: 1184px; */
-  }
-}
-
-@media screen and (max-width: 435px) {
-  .content {
-    /* max-width: 1184px; */
+    max-width: 100%;
   }
 }

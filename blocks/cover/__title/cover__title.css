@@ -6,3 +6,10 @@
   margin: 0 auto;
   max-width: 560px;
 }
+
+@media screen and (max-width: 435px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
