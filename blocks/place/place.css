@@ -1,12 +1,13 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 1fr;
   column-gap: 40px;
   row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
+    grid-template-columns: 440px 1fr;
     column-gap: 32px;
     row-gap: 48px;
   }
@@ -14,6 +15,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
+    grid-template-columns: 330px 1fr;
     column-gap: 28px;
     row-gap: 42px;
   }
