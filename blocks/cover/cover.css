@@ -1,11 +1,6 @@
 .cover {
   max-width: 1184px;
   margin: 0 auto;
-  position: relative;
-}
-
-.cover:hover .cover__overlay {
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 435px) {
